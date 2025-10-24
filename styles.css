@@ -6,8 +6,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    color: #fff;
+    background: hsl(26, 62%, 90%);
+    color: hsl(0, 0%, 0%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ h1 {
 }
 
 button {
-    color: white;
+    color: rgb(255, 253, 253);
     border: none;
     border-radius: 8px;
     padding: 20px 10px;
@@ -113,27 +113,27 @@ button:active {
 }
 
 #addVehicle {
-    background: linear-gradient(to right, #2ecc71, #27ae60);
+    background: linear-gradient(to right, #eeb56b, #eeb56b);
 }
 
 #deleteVehicle {
-    background: linear-gradient(to right, #e74c3c, #c0392b);
+    background: linear-gradient(to right, #e9ad5f, #e9ad5f);
 }
 
 #modifyData {
-    background: linear-gradient(to right, #f39c12, #e67e22);
+    background: linear-gradient(to right, #edb357, #edb357);
 }
 
 #vehicleMaintenance {
-    background: linear-gradient(to right, #9b59b6, #8e44ad);
+    background: linear-gradient(to right, #eeb56b, #eeb56b);
 }
 
 #startTimer {
-    background: linear-gradient(to right, #1abc9c, #16a085);
+    background: linear-gradient(to right, #e9ad5f, #e9ad5f);
 }
 
 #pauseTimer {
-    background: linear-gradient(to right, #34495e, #2c3e50);
+    background: linear-gradient(to right, #edb357, #edb357);
 }
 
 .timer-section {
